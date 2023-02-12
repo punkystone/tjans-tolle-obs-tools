@@ -1,3 +1,4 @@
+#![windows_subsystem = "windows"]
 use std::{env, error::Error};
 
 use obws::Client;
