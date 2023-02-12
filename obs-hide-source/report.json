@@ -1,0 +1,29 @@
+{
+  "version": 0,
+  "root_name": "obs-hide-source",
+  "workspace_crates": {
+    "obs-hide-source": {
+      "full_path": "/home/kevin/tjan-obs-tools/obs-hide-source/Cargo.toml",
+      "dependencies": {
+        "tokio": {
+          "original_features": [
+            "tokio-macros",
+            "macros",
+            "rt-multi-thread",
+            "rt",
+            "num_cpus"
+          ],
+          "successfully_removed_features": [
+            "num_cpus",
+            "rt",
+            "tokio-macros"
+          ],
+          "unsuccessfully_removed_features": [
+            "macros",
+            "rt-multi-thread"
+          ]
+        }
+      }
+    }
+  }
+}
